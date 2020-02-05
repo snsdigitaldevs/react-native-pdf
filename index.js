@@ -370,7 +370,7 @@ export default class Pdf extends Component {
                                         ? <ProgressBarAndroid
                                             progress={this.state.progress}
                                             indeterminate={false}
-                                            styleAttr="Horizontal"
+                                            styleAttr="Normal"
                                             style={styles.progressBar}
                                             {...this.props.activityIndicatorProps}
                                         />
